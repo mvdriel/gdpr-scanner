@@ -8,8 +8,8 @@ if (!file_exists("done/$date/$hash")) {
 $reponse = json_decode(gzdecode(file_get_contents("done/$date/$hash")), true);
 
 $comments = [
-    'fonts.googleapis.com' => '<a href"https://github.com/google/fonts/issues/1495">GDPR compliance</a>',
-    'fonts.gstatic.com' => '<a href"https://github.com/google/fonts/issues/1495">GDPR compliance</a>',
+    'fonts.googleapis.com' => '<a href="https://github.com/google/fonts/issues/1495">GDPR compliance</a>',
+    'fonts.gstatic.com' => '<a href="https://github.com/google/fonts/issues/1495">GDPR compliance</a>',
 ];
 ?>
 <?php include 'header.php';?>
